@@ -66,3 +66,8 @@ function startRun() {
     ship.style.top = startPositionShipY + 'px';
   }, 1000 / 30);
 }
+//function asteroidsTick(){
+//  const id = setInterval(() => {
+//    document.getElementById(`asteroid${asteroids.asteroId}`);
+//    }, 1000 / 30);
+//}
