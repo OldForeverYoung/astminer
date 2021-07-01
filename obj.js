@@ -45,7 +45,7 @@ function spawnAsteroid() {
 
   newAsteroid.style.position = 'absolute';
 
-  // короче... по моей идеи мне нужно ебашить в offsetTop и offsetWidth
+  // короче... по моей идеи мне нужно ебашить в offsetTop и offsetLeft
   // вроде немного раздуплился... у меня есть коры - можно создавать эту хуйню
   // фигачим астероид?? (пока что чисто в документ)
   document.body.appendChild(newAsteroid);
