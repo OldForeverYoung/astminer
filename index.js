@@ -64,6 +64,7 @@ function startRun() {
     startPositionShipY = startPositionShipY + updateY;
     ship.style.left = startPositionShipX + 'px';
     ship.style.top = startPositionShipY + 'px';
+    runAsteroids();
   }, 1000 / 30);
 }
 //function asteroidsTick(){

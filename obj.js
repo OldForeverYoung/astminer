@@ -53,6 +53,11 @@ function spawnAsteroid() {
   newAsteroid.style.top = asteroids.asteroidY[idAsteroid] + 'px';
   console.log(newAsteroid.style.left);
   console.log(newAsteroid.style.top);
-  // перепутал изначально X и Y и на своём рабочем мониторе не понимал, где бля астероиды?
+
   // пока через консоль не нашел)))
+}
+function runAsteroids() {
+  for (let stepXY = 0; stepXY == asteroids.asteroidX.length; stepXY++) {
+    asteroids.asteroidX[stepXY]--;
+  }
 }
